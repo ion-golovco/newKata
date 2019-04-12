@@ -1,3 +1,6 @@
+//It generates limitI numbers from 1 to numberOfElemnts 
+//Uses Math.random for chances
+
 function round(value, precision) {
     let multiplier = Math.pow(10, precision || 0);
     return Math.round(value * multiplier) / multiplier;
