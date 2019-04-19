@@ -12,7 +12,7 @@ function main(){
         incremental(returnul,inc)
         console.log([returnul,number])
     }
-    if(number>220){
+    if(number>250){
         return console.log("gata boss")
     }
     if(returnul>=number){
