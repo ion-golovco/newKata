@@ -13,17 +13,17 @@ function minusIncremental(n,inc){
 main()
 function main(){
     if(returnul<number){
-    while(returnul<=number){
-        incremental(returnul,inc)
-        console.log([returnul,number])
+        while(returnul<number){
+            incremental(returnul,inc)
+            console.log([returnul,number])
+        }
     }
-}
-if(returnul>number){
-    while(returnul>number){
-        minusIncremental(returnul,inc)
-        console.log([returnul,number])
+    if(returnul>number){
+        while(returnul>number){
+            minusIncremental(returnul,inc)
+            console.log([returnul,number])
+          }
     }
-}
 
     //This is a limit because it does create infinite arrays so it nedds an end
     if(number>220){
