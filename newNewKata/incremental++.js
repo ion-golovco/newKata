@@ -4,6 +4,7 @@ let number = Math.floor(Math.random()*255)
 let returnul = 0
 let inc = 1
 let index = 0
+
 function incremental(n,inc){
     returnul = n+inc
 }
@@ -28,7 +29,6 @@ function main(){
     //This is a limit because it does create infinite arrays so it nedds an end
     if(number>220){
         return console.log("gata boss")
-
     }
 
     if(returnul>=number){
@@ -37,5 +37,4 @@ function main(){
         main()
     }
 }
-
 
